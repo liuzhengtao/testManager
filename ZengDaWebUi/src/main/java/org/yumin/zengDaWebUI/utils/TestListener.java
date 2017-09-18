@@ -3,6 +3,8 @@ package org.yumin.zengDaWebUI.utils;
 import org.testng.TestListenerAdapter;
 import org.testng.ITestResult;
 import org.openqa.selenium.WebDriver;
+import org.yumin.zengDaWebUI.action.ElementAction;
+import org.yumin.zengDaWebUI.entries.Log;
 
 import java.io.File;
 import java.io.FileWriter;

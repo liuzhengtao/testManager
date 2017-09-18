@@ -1,7 +1,6 @@
 package org.yumin.zengDaWebUI.action;
 
 import org.yumin.zengDaWebUI.pageObject.LoginPage;
-import org.yumin.zengDaWebUI.utils.ElementAction;
 import org.yumin.zengDaWebUI.utils.TestBaseCase;
 
 import java.io.IOException;

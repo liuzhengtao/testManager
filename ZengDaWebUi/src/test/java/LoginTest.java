@@ -3,6 +3,7 @@ import java.io.IOException;
 import org.dom4j.DocumentException;
 import org.testng.annotations.DataProvider;
 
+import org.yumin.zengDaWebUI.action.ElementAction;
 import org.yumin.zengDaWebUI.action.LoginAction;
 
 import org.testng.annotations.Parameters;
@@ -36,9 +37,9 @@ public class LoginTest extends TestBaseCase {
 	@Test(description="登录失败用例",dataProvider = "longinData")
 	public void loginFail (String userName,String password,String message) throws IOException, DocumentException {
 		//代替testng参数化的方法
-		String BaseUrl= XmlReadUtil.getTestngParametersValue("testng.xml","BaseUrl");
+		String BaseUrl= PageObjectReadUtil.getTestngParametersValue("testng.xml","BaseUrl");
 		//调用登录方法
-		LoginAction loginAction=new LoginAction(BaseUrl+"/new/login.aspx",userName,password);
+		LoginAction loginAction=new LoginAction(BaseUrl,userName,password);
 		action.sleep(1);
 		//设置检查点
 		Assertion.VerityTextPresent(message,"验证是否出现预期的错误提示信息:"+message);

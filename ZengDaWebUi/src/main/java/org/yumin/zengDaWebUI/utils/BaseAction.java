@@ -2,11 +2,13 @@ package org.yumin.zengDaWebUI.utils;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 import java.io.IOException;
-import java.io.InputStream;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+import org.yumin.zengDaWebUI.entries.Locator;
+import org.yumin.zengDaWebUI.entries.LocatorInfo;
+import org.yumin.zengDaWebUI.entries.Log;
 
 /**
  *
@@ -17,26 +19,9 @@ public class BaseAction extends TestBaseCase{
 	//protected  WebDriver driver;
 	// protected Log log;
 	//定位信息图（对象库存储结构）
-	protected HashMap<String,Locator>  locatorMap;
-	public String path=null;
-	public InputStream path_inputStream_1;
-	public InputStream path_inputStream_2;
+	protected HashMap<String,LocatorInfo>  locatorMap;
 	Log log=new Log(this.getClass());
 
-	public  void setXmlObjectPath(String path)
-	{
-
-		this.path=path;
-	}
-	public  void setXmlObjectPathForLocator(InputStream path_inputStream)
-	{
-
-		this.path_inputStream_1=path_inputStream;
-	}
-	public  void setXmlObjectPathForPageURL(InputStream path_inputStream)
-	{
-		this.path_inputStream_2=path_inputStream;
-	}
 	/**
 	 * 构造方法，创建创建BasePageOpera对象时，需要初始化的信息.传递相关参数
 	 * this.getClass().getCanonicalName() 获取page类路径，也就是xml文档中的pageName
@@ -49,39 +34,33 @@ public class BaseAction extends TestBaseCase{
 	}
 	public void getLocatorMap()
 	{
-		XmlReadUtil xmlReadUtil=new XmlReadUtil();
 		try {
-			if((path==null||path.isEmpty()))
-			{locatorMap = xmlReadUtil.readXMLDocument(path_inputStream_1, this.getClass().getCanonicalName());}
-			else {
-				locatorMap = xmlReadUtil.readXMLDocument(path, this.getClass().getCanonicalName());
-			}
-
+				locatorMap = PageObjectReadUtil.readPageObjectInfo();
 		} catch (Exception e) {
-			// TODO: handle exception
+			log.error("getLocatorMap:"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
-	static By getBy (Locator.ByType byType, Locator locator)
+	static By getBy (Locator.ByType byType, LocatorInfo locator)
 	{
 		switch(byType)
 		{
 			case id:
-				return By.id(locator.getElement());
+				return By.id(locator.getlValue());
 			case cssSelector:
-				return By.cssSelector(locator.getElement());
+				return By.cssSelector(locator.getlValue());
 			case name:
-				return By.name(locator.getElement());
+				return By.name(locator.getlValue());
 			case xpath:
-				return By.xpath(locator.getElement());
+				return By.xpath(locator.getlValue());
 			case className:
-				return By.className(locator.getElement());
+				return By.className(locator.getlValue());
 			case tagName:
-				return By.tagName(locator.getElement());
+				return By.tagName(locator.getlValue());
 			case linkText:
-				return By.linkText(locator.getElement());
+				return By.linkText(locator.getlValue());
 			case partialLinkText:
-				return By.partialLinkText(locator.getElement());
+				return By.partialLinkText(locator.getlValue());
 			//return null也可以放到switch外面
 			default:
 				return null;
@@ -96,9 +75,9 @@ public class BaseAction extends TestBaseCase{
 	 * @return
 	 * @throws IOException
 	 */
-	public  Locator getLocator(String locatorName)
+	public  LocatorInfo getLocator(String locatorName)
 	{
-		Locator locator;
+		LocatorInfo locator;
 		/**
 		 * 在对象库通过对象名字查找定位信息
 		 */
@@ -118,11 +97,7 @@ public class BaseAction extends TestBaseCase{
 	{
 		String pageURL=null;
 		try {
-			if(path==null||path.isEmpty())
-			{pageURL=XmlReadUtil.getXmlPageURL(path_inputStream_1, this.getClass().getCanonicalName());}
-			else {
-				pageURL=XmlReadUtil.getXmlPageURL(path, this.getClass().getCanonicalName());
-			}
+			pageURL= PageObjectReadUtil.getPageURL(this.getClass().getCanonicalName());
 		} catch (Exception e) {
 			// TODO 自动生成的 catch 块
 			e.printStackTrace();
@@ -180,20 +155,21 @@ public class BaseAction extends TestBaseCase{
 		driver.navigate().refresh();
 		log.info("浏览器刷新");
 	}
-	public WebElement findElement( final Locator locator) throws IOException
+	public WebElement findElement( final LocatorInfo locator) throws IOException
 	{
 		/**
 		 * 查找某个元素等待几秒
 		 */
-		Waitformax(Integer.valueOf(locator.getWaitSec()));
+		Waitformax(locator.getlTimeOut());
 		WebElement webElement;
 		webElement=getElement(locator);
 		return webElement;
 
 
 	}
-	public void Waitformax(int t)
+	public void Waitformax(Integer t)
 	{
+
 		driver.manage().timeouts().implicitlyWait(t,TimeUnit.SECONDS);
 	}
 	/**
@@ -202,53 +178,53 @@ public class BaseAction extends TestBaseCase{
 	 * @return
 	 * @throws NoSuchElementException
 	 */
-	public WebElement getElement(Locator locator)
+	public WebElement getElement(LocatorInfo locator)
 	{
 		/**
 		 * locator.getElement(),获取对象库对象定位信息
 		 */
 		//locator=getLocator(locatorMap.get(key));
 		WebElement webElement;
-		switch (locator.getBy())
+		switch (locator.getlType())
 		{
-			case xpath :
+			case "xpath" :
 				//log.info("find element By xpath");
-				webElement=driver.findElement(By.xpath(locator.getElement()));
+				webElement=driver.findElement(By.xpath(locator.getlValue()));
 				/**
 				 * 出现找不到元素的时候，记录日志文件
 				 */
 				break;
-			case id:
+			case "id":
 				//log.info("find element By xpath");
-				webElement=driver.findElement(By.id(locator.getElement()));
+				webElement=driver.findElement(By.id(locator.getlValue()));
 				break;
-			case cssSelector:
+			case "cssSelector":
 				//log.info("find element By cssSelector");
-				webElement=driver.findElement(By.cssSelector(locator.getElement()));
+				webElement=driver.findElement(By.cssSelector(locator.getlValue()));
 				break;
-			case name:
+			case "name":
 				//log.info("find element By name");
-				webElement=driver.findElement(By.name(locator.getElement()));
+				webElement=driver.findElement(By.name(locator.getlValue()));
 				break;
-			case className:
+			case "className":
 				//log.info("find element By className");
-				webElement=driver.findElement(By.className(locator.getElement()));
+				webElement=driver.findElement(By.className(locator.getlValue()));
 				break;
-			case linkText:
+			case "linkText":
 				//log.info("find element By linkText");
-				webElement=driver.findElement(By.linkText(locator.getElement()));
+				webElement=driver.findElement(By.linkText(locator.getlValue()));
 				break;
-			case partialLinkText:
+			case "partialLinkText":
 				//log.info("find element By partialLinkText");
-				webElement=driver.findElement(By.partialLinkText(locator.getElement()));
+				webElement=driver.findElement(By.partialLinkText(locator.getlValue()));
 				break;
-			case tagName:
+			case "tagName":
 				//log.info("find element By tagName");
-				webElement=driver.findElement(By.partialLinkText(locator.getElement()));
+				webElement=driver.findElement(By.partialLinkText(locator.getlValue()));
 				break;
 			default :
 				//log.info("find element By xpath");
-				webElement=driver.findElement(By.xpath(locator.getElement()));
+				webElement=driver.findElement(By.xpath(locator.getlValue()));
 				break;
 
 		}

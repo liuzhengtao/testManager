@@ -12,15 +12,13 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.springframework.test.context.ContextConfiguration;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
-import org.yumin.zengDaWebUI.dao.impl.UiDaoImpl;
+import org.yumin.zengDaWebUI.entries.Log;
 
 public class TestBaseCase {
 	public static WebDriver driver;
-	private static UiDaoImpl uiDao = new UiDaoImpl();
 	//方法描述
 	public static String description;
 	public Log log=new Log(this.getClass().getSuperclass());
@@ -148,11 +146,6 @@ public class TestBaseCase {
 				break;
 		}
 		return driver;
-	}
-	public static void main(String args[])
-	{
-		WebDriver driver2=new FirefoxDriver();
-		driver2.get("http://www.baidu.com");
 	}
 
 

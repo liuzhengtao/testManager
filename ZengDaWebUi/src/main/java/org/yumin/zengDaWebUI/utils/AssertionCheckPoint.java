@@ -3,6 +3,10 @@ package org.yumin.zengDaWebUI.utils;
 import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.testng.Assert;
+import org.yumin.zengDaWebUI.action.ElementAction;
+import org.yumin.zengDaWebUI.entries.LocatorInfo;
+import org.yumin.zengDaWebUI.entries.Log;
+
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -551,7 +555,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * @param locator  元素定位信息
 	 * @param exceptText 预期文本值
 	 */
-	public static void verityText(Locator locator,String exceptText)
+	public static void verityText(LocatorInfo locator, String exceptText)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -577,7 +581,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * @param exceptText 预期文本值
 	 * @param Message 验证中文描述
 	 */
-	public static void verityText(Locator locator,String exceptText,String Message)
+	public static void verityText(LocatorInfo locator,String exceptText,String Message)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -605,7 +609,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * @param AttributeName 元素属性名
 	 * @param exceptAttributeValue 预期值
 	 */
-	public static void verityAttribute(Locator locator,String AttributeName,String exceptAttributeValue)
+	public static void verityAttribute(LocatorInfo locator,String AttributeName,String exceptAttributeValue)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -633,7 +637,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * @param exceptAttributeValue 预期值
 	 * @param Message 验证中文描述
 	 */
-	public static void verityAttribute(Locator locator,String AttributeName,String exceptAttributeValue,String Message)
+	public static void verityAttribute(LocatorInfo locator,String AttributeName,String exceptAttributeValue,String Message)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -660,7 +664,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * 验证某输入框是否不可编辑
 	 * @param locator 元素定位信息
 	 */
-	public static void VertityNoEdit(Locator locator)
+	public static void VertityNoEdit(LocatorInfo locator)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();
@@ -702,7 +706,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * @param locator 元素定位信息
 	 * @param Message 验证中文描述
 	 */
-	public static void VertityNoEdit(Locator locator,String Message)
+	public static void VertityNoEdit(LocatorInfo locator,String Message)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();
@@ -742,7 +746,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * 验证某元素可编辑
 	 * @param locator 元素定位信息
 	 */
-	public static void VertityEdit(Locator locator)
+	public static void VertityEdit(LocatorInfo locator)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();
@@ -781,7 +785,7 @@ public class AssertionCheckPoint extends TestBaseCase {
 	 * @param locator 元素定位信息
 	 * @param Message 验证中文描述
 	 */
-	public static void VertityEdit(Locator locator,String Message)
+	public static void VertityEdit(LocatorInfo locator,String Message)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();

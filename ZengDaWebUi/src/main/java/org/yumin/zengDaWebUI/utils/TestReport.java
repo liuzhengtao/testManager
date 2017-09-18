@@ -26,6 +26,8 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestNG;
 import org.testng.xml.XmlSuite;
+import org.yumin.zengDaWebUI.email.SendMail;
+
 /**
  * 报表生成器
  * @author Administrator

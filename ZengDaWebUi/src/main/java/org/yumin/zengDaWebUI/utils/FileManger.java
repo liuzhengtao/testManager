@@ -95,7 +95,7 @@ public class FileManger {
 	 * @param sourceRelativePath 源文件相对路径
 	 * @param targetRelativePath 目标文件相对路径
 	 */
-	public void copyFile(String sourceRelativePath,String targetRelativePath)
+	public static void copyFile(String sourceRelativePath,String targetRelativePath)
 	{
 		//读取流字节流
 		FileInputStream fileInputStream=null;
@@ -138,11 +138,5 @@ public class FileManger {
 		}
 
 	}
-
-	public static void main(String[] args) {
-		// TODO 自动生成的方法存根
-
-	}
-
 
 }

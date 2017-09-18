@@ -9,7 +9,6 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import org.yumin.zengDaWebUI.pageObject.LoginPage;
 import org.yumin.zengDaWebUI.utils.TestBaseCase;
-import org.yumin.zengDaWebUI.utils.ElementAction;
 
 public class CommonAction extends TestBaseCase {
 
@@ -19,7 +18,6 @@ public class CommonAction extends TestBaseCase {
 		LoginPage loginPage=new LoginPage();
 		loginPage.open(Url);
 		System.out.println(driver.getCurrentUrl());
-		//设置截图名字
 		ElementAction action=new ElementAction();
 		action.clear(loginPage.密码输入框());
 		action.type(loginPage.用户名输入框(),UserName);

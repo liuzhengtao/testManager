@@ -33,15 +33,16 @@ public interface UiDao {
 
     /**
      * 根据控件id获取控件信息
-     * @param lId
+     * @param pId
      * @return
      */
-    public LocatorInfo getLocatorInfo(Integer lId);
+    public List<LocatorInfo>  getLocatorInfo(Integer pId);
     /**
      * 获取所有控件对象
      * @return
      */
     public List<LocatorInfo> getLocatorInfos();
+
 
 
 }

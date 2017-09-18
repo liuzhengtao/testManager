@@ -10,6 +10,9 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.openqa.selenium.WebDriver;
+import org.yumin.zengDaWebUI.action.ElementAction;
+import org.yumin.zengDaWebUI.entries.LocatorInfo;
+import org.yumin.zengDaWebUI.entries.Log;
 
 /**
  * 断言类，用于设置检查点的方法
@@ -616,7 +619,7 @@ public class Assertion extends TestBaseCase {
 	 * @param exceptText 预期文本值
 	 * @author Administrator 刘正涛
 	 */
-	public static void VerityText(Locator locator,String exceptText)
+	public static void VerityText(LocatorInfo locator, String exceptText)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -644,7 +647,7 @@ public class Assertion extends TestBaseCase {
 	 * @param Message 验证中文描述
 	 * @author Administrator 刘正涛
 	 */
-	public static void VerityText(Locator locator,String exceptText,String Message)
+	public static void VerityText(LocatorInfo locator,String exceptText,String Message)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -674,7 +677,7 @@ public class Assertion extends TestBaseCase {
 	 * @param exceptAttributeValue 预期值
 	 * @author Administrator 刘正涛
 	 */
-	public static void VerityAttribute(Locator locator,String AttributeName,String exceptAttributeValue)
+	public static void VerityAttribute(LocatorInfo locator,String AttributeName,String exceptAttributeValue)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -704,7 +707,7 @@ public class Assertion extends TestBaseCase {
 	 * @param Message 验证中文描述
 	 * @author Administrator 刘正涛
 	 */
-	public static void VerityAttribute(Locator locator,String AttributeName,String exceptAttributeValue,String Message)
+	public static void VerityAttribute(LocatorInfo locator,String AttributeName,String exceptAttributeValue,String Message)
 	{
 		ElementAction action=new ElementAction();
 		WebElement webElement=action.findElement(locator);
@@ -734,7 +737,7 @@ public class Assertion extends TestBaseCase {
 	 * @param locator 元素定位信息
 	 * @author Administrator 刘正涛
 	 */
-	public static void VertityNoEdit(Locator locator)
+	public static void VertityNoEdit(LocatorInfo locator)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();
@@ -777,7 +780,7 @@ public class Assertion extends TestBaseCase {
 	 * @param Message 验证中文描述
 	 * @author Administrator 刘正涛
 	 */
-	public static void VertityNoEdit(Locator locator,String Message)
+	public static void VertityNoEdit(LocatorInfo locator,String Message)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();
@@ -820,7 +823,7 @@ public class Assertion extends TestBaseCase {
 	 * @param locator 元素定位信息
 	 * @author Administrator 刘正涛
 	 */
-	public static void VertityEdit(Locator locator)
+	public static void VertityEdit(LocatorInfo locator)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();
@@ -862,7 +865,7 @@ public class Assertion extends TestBaseCase {
 	 * @param Message 验证中文描述
 	 * @author Administrator 刘正涛
 	 */
-	public static void VertityEdit(Locator locator,String Message)
+	public static void VertityEdit(LocatorInfo locator,String Message)
 	{
 		Boolean  status=false;
 		ElementAction action=new ElementAction();

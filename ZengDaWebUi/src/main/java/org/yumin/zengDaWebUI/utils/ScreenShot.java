@@ -7,6 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.google.common.io.Files;
+import org.yumin.zengDaWebUI.entries.Log;
 
 public class ScreenShot {
 	public WebDriver driver;
