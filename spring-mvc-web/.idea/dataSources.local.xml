@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="本地" uuid="c6ac6b93-5911-4809-bcfd-04c9f3e9564d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>seckill.*</schema-pattern>
+      <default-schemas>seckill.*</default-schemas>
+    </data-source>
+  </component>
+</project>

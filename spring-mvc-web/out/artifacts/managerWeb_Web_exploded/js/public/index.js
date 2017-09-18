@@ -1,0 +1,13 @@
+$('#fm').form('submit',{
+    url:'',
+    success:function(data){
+        if(data){
+            $.messager.alert('信息提示','提交成功！','info');
+            $('#doLogin').dialog('close');
+        }
+        else
+        {
+            $.messager.alert('信息提示','提交失败！','info');
+        }
+    }
+})

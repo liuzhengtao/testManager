@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.niuchatao.pw.dao.InfoDao">
+    <resultMap id="infoMap" type="Info">
+     <result column="id" property="id"/>
+        <result column="sale_flag" property="saleFlag"/>
+        <result column="valide_flag" property="valideFlag"/>
+        <result column="user_code" property="userCode"/>
+    </resultMap>
+
+
+    <select id="getInfo" parameterType="int" resultMap="infoMap">
+        SELECT
+           *
+        FROM
+           info
+           WHERE
+           id=#{id}
+    </select>
+    <select id="getAllInfos" resultType="Info">
+        SELECT
+           *
+        FROM
+           info
+    </select>
+    <insert id="insertInfo" parameterType="Info">
+        INSERT ignore INTO info(id,sale_flag,valide_flag,user_code)
+        VALUES(#{id},#{saleFlag},#{valideFlag},#{userCode})
+    </insert>
+    <update id="updateInfo" parameterType="Info">
+        UPDATE
+        info
+        <set>
+            <if test="sale_flag != null">sale_flag=#{saleFlag},</if>
+            <if test="valide_flag != null">valide_flag=#{valideFlag},</if>
+            <if test="user_code != null">user_code=#{userCode},</if>
+        </set>
+        WHERE
+        id=#{id}
+    </update>
+
+    <delete id="deleteInfo">
+        DELETE FROM
+        info
+        WHERE id=#{id}
+    </delete>
+</mapper>
