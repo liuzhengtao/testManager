@@ -1,0 +1,647 @@
+[2017-09-12 13:03:55,149] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6fb0d3ed: startup date [Tue Sep 12 13:03:55 CST 2017]; root of context hierarchy
+[2017-09-12 13:03:55,203] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:03:55,601] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:03:55,707] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:03:56,087] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 1000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeby99qwbercs7nlu18|2ea41516, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeby99qwbercs7nlu18|2ea41516, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://172.16.230.138:3306/page_object, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[2017-09-12 13:10:32,156] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bfbf16f: startup date [Tue Sep 12 13:10:32 CST 2017]; root of context hierarchy
+[2017-09-12 13:10:32,188] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:10:32,552] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:10:32,631] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:10:33,050] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74f5ce22: startup date [Tue Sep 12 13:10:33 CST 2017]; root of context hierarchy
+[2017-09-12 13:10:33,051] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:10:33,141] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 1000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeby99qwbn9ms10774m7|4b1d6571, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeby99qwbn9ms10774m7|4b1d6571, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://172.16.230.138:3306/page_object, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[2017-09-12 13:11:30,916] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bfbf16f: startup date [Tue Sep 12 13:11:30 CST 2017]; root of context hierarchy
+[2017-09-12 13:11:30,954] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:11:31,272] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:11:31,367] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:11:31,796] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74f5ce22: startup date [Tue Sep 12 13:11:31 CST 2017]; root of context hierarchy
+[2017-09-12 13:11:31,797] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:11:31,894] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 1000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeby99qwboixu1dxpowe|4b1d6571, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeby99qwboixu1dxpowe|4b1d6571, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://172.16.230.138:3306/page_object, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[2017-09-12 13:14:38,939] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26a7b76d: startup date [Tue Sep 12 13:14:38 CST 2017]; root of context hierarchy
+[2017-09-12 13:14:38,978] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:14:39,339] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:14:39,429] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:14:39,829] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3a5ecce3: startup date [Tue Sep 12 13:14:39 CST 2017]; root of context hierarchy
+[2017-09-12 13:14:39,830] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:14:39,916] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 1000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeby99qwbsk221l7vcb1|289710d9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeby99qwbsk221l7vcb1|289710d9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://172.16.230.138:3306/page_object, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[2017-09-12 13:15:15,708] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27f723: startup date [Tue Sep 12 13:15:15 CST 2017]; root of context hierarchy
+[2017-09-12 13:15:15,742] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:15:16,098] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:15:16,187] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:15:16,594] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58be6e8: startup date [Tue Sep 12 13:15:16 CST 2017]; root of context hierarchy
+[2017-09-12 13:15:16,595] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:16:44,428] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27f723: startup date [Tue Sep 12 13:16:44 CST 2017]; root of context hierarchy
+[2017-09-12 13:16:44,468] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:16:44,848] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:16:44,958] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:16:45,337] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58be6e8: startup date [Tue Sep 12 13:16:45 CST 2017]; root of context hierarchy
+[2017-09-12 13:16:45,338] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:20:22,084] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27f723: startup date [Tue Sep 12 13:20:22 CST 2017]; root of context hierarchy
+[2017-09-12 13:20:22,124] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:20:22,549] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:20:22,634] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:20:23,018] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58be6e8: startup date [Tue Sep 12 13:20:23 CST 2017]; root of context hierarchy
+[2017-09-12 13:20:23,019] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:21:08,819] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27f723: startup date [Tue Sep 12 13:21:08 CST 2017]; root of context hierarchy
+[2017-09-12 13:21:08,860] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:21:09,222] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:21:09,310] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:21:09,724] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58be6e8: startup date [Tue Sep 12 13:21:09 CST 2017]; root of context hierarchy
+[2017-09-12 13:21:09,725] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:24:34,391] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ed828d: startup date [Tue Sep 12 13:24:34 CST 2017]; root of context hierarchy
+[2017-09-12 13:24:34,428] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:24:34,820] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:24:34,909] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:24:53,837] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 13:24:53 CST 2017]; root of context hierarchy
+[2017-09-12 13:24:53,872] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:24:54,193] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:24:54,276] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:24:54,749] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 13:24:54,749] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 13:25:06,127] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:25:14,718] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问https://passport.jd.com/new/login.aspx网址!
+[2017-09-12 13:25:14,727] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:25:14,764] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:25:14,771] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:25:15,820] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:25:15,859] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:25:15,860] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:25:15,860] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:25:18,059] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问https://passport.jd.com/new/login.aspx网址!
+[2017-09-12 13:25:18,069] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:25:18,069] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:25:18,072] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:25:18,434] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:25:18,436] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:25:18,436] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:25:18,436] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:25:20,162] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问https://passport.jd.com/new/login.aspx网址!
+[2017-09-12 13:25:20,178] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:25:20,178] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:25:20,181] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:25:20,775] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:25:20,778] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:25:20,778] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:25:20,778] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:25:22,262] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问https://passport.jd.com/new/login.aspx网址!
+[2017-09-12 13:25:22,271] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:25:22,271] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:25:22,274] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:25:22,465] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:25:22,466] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:25:22,466] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:25:26,322] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 13:25:26,323] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 13:25:26,323] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 13:25:29,920] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 13:25:38,802] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问https://passport.jd.com/new/login.aspx网址!
+[2017-09-12 13:25:38,810] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:25:38,811] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:25:38,813] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:25:39,022] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试0.jpg
+[2017-09-12 13:25:39,023] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 13:25:39,023] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 13:25:42,160] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 13:25:44,490] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 13:35:00,634] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 13:35:00 CST 2017]; root of context hierarchy
+[2017-09-12 13:35:00,682] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:35:01,043] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:35:01,117] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:35:01,527] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 13:35:01,527] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 13:35:05,657] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:35:09,569] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:35:09,583] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:35:09,591] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:35:09,600] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:35:09,864] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:35:09,866] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:35:09,866] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:35:09,866] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:35:10,390] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:35:10,399] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:35:10,399] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:35:10,401] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:35:10,649] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:35:10,651] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:35:10,651] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:35:10,651] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:35:10,956] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:35:10,966] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:35:10,966] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:35:10,969] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:35:11,181] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:35:11,183] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:35:11,183] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:35:11,183] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:35:11,421] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:35:11,428] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:35:11,428] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:35:11,431] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:35:11,625] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:35:11,626] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:35:11,627] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:35:15,072] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 13:35:15,073] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 13:35:15,073] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 13:35:18,666] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 13:35:20,718] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:35:20,733] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:35:20,733] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:35:20,737] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:35:20,989] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试0.jpg
+[2017-09-12 13:35:20,991] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 13:35:20,991] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 13:35:24,199] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 13:35:26,329] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 13:49:07,796] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 13:49:07 CST 2017]; root of context hierarchy
+[2017-09-12 13:49:07,832] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 13:49:08,175] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 13:49:08,251] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 13:49:08,659] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 13:49:08,659] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 13:49:12,785] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:49:19,937] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:49:19,949] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:49:19,955] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:49:19,963] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:49:20,248] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:49:20,250] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:49:20,250] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:49:20,251] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:49:20,871] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:49:20,879] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:49:20,879] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:49:20,883] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:49:21,129] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:49:21,130] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:49:21,131] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:49:21,131] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:49:21,412] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:49:21,423] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:49:21,423] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:49:21,425] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:49:21,620] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:49:21,622] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:49:21,622] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:49:21,622] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 13:49:21,869] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:49:21,878] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:49:21,878] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:49:21,881] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:49:22,289] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例0.jpg
+[2017-09-12 13:49:22,295] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 13:49:22,296] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 13:49:25,519] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 13:49:25,523] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 13:49:25,523] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 13:49:28,952] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 13:49:31,299] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://172.16.230.149:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 13:49:31,324] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 13:49:31,325] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 13:49:31,331] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 13:49:31,592] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试0.jpg
+[2017-09-12 13:49:31,594] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 13:49:31,594] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 13:49:34,721] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 13:49:41,905] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 14:06:15,817] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 14:06:15 CST 2017]; root of context hierarchy
+[2017-09-12 14:06:15,852] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 14:06:16,194] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 14:06:16,276] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 14:06:16,706] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 14:06:16,707] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 14:06:20,771] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 14:06:21,760] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/网址!
+[2017-09-12 14:06:21,771] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 14:06:21,777] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 14:06:21,785] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 14:06:22,345] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试0.jpg
+[2017-09-12 14:06:22,347] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 14:06:22,347] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 14:06:25,642] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 14:06:27,528] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 14:07:53,832] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 14:07:53 CST 2017]; root of context hierarchy
+[2017-09-12 14:07:53,871] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 14:07:54,203] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 14:07:54,294] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 14:07:54,779] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 14:07:54,779] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 14:07:58,871] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 14:08:00,159] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/网址!
+[2017-09-12 14:08:00,174] ERROR org.yumin.zengDaWebUI.pageObject.LoginPage 没有找到账户登录页面元素
+[2017-09-12 14:08:00,182] INFO  org.yumin.zengDaWebUI.utils.ElementAction 其他异常null
+[2017-09-12 14:08:00,192] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 14:08:00,513] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试0.jpg
+[2017-09-12 14:08:00,515] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 14:08:00,515] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 14:08:03,664] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 14:08:05,358] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 14:11:09,878] INFO  org.yumin.zengDaWebUI.pageObjectConfig.PageObjectAutoCode 自动生成对象库java代码成功
+[2017-09-12 14:33:33,158] INFO  org.yumin.zengDaWebUI.pageObjectConfig.PageObjectAutoCode 自动生成对象库java代码成功
+[2017-09-12 14:35:50,538] INFO  org.yumin.zengDaWebUI.pageObjectConfig.PageObjectAutoCode 自动生成对象库java代码成功
+[2017-09-12 14:36:26,326] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 14:36:26 CST 2017]; root of context hierarchy
+[2017-09-12 14:36:26,364] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 14:36:26,675] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 14:36:26,760] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 14:36:27,205] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 14:36:27,205] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 14:36:32,241] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 14:36:34,155] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/网址!
+[2017-09-12 14:36:35,174] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:36:35,512] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 14:36:35,512] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 14:36:35,585] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 14:36:35,585] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:36:35,605] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 14:36:35,605] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:36:35,670] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 14:36:35,670] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:36,200] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:36,728] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:37,256] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:37,766] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:38,276] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:38,786] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:39,295] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:39,820] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:40,354] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:40,889] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:41,424] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:41,959] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:42,472] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:42,999] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:43,525] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:44,062] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:44,597] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:45,118] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:45,639] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:46,173] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:46,693] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:47,228] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:47,755] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:48,295] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:48,819] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:49,330] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:49,859] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:50,388] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:50,913] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:51,440] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:51,967] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:52,500] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:53,020] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:53,545] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:54,086] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:54,597] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:55,123] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:55,639] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:56,167] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.xpath://input[text()='登    录']]
+[2017-09-12 14:36:56,196] INFO  org.yumin.zengDaWebUI.utils.ElementAction 超时无法定位页面元素
+[2017-09-12 14:36:56,497] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 143656208.jpg
+[2017-09-12 14:36:56,497] INFO  org.yumin.zengDaWebUI.utils.ElementAction 2017-09-12 143656208
+[2017-09-12 14:36:56,503] ERROR org.yumin.zengDaWebUI.utils.TestListener 0
+[2017-09-12 14:36:56,728] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试0.jpg
+[2017-09-12 14:36:56,731] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 14:36:56,731] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 14:37:00,053] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 14:37:02,756] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 14:43:16,014] INFO  org.yumin.zengDaWebUI.pageObjectConfig.PageObjectAutoCode 自动生成对象库java代码成功
+[2017-09-12 14:43:59,238] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 14:43:59 CST 2017]; root of context hierarchy
+[2017-09-12 14:43:59,277] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 14:43:59,636] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 14:43:59,720] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 14:44:00,140] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 14:44:00,140] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 14:44:04,028] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 14:44:05,349] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/网址!
+[2017-09-12 14:44:06,372] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:44:06,439] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 14:44:06,440] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 14:44:06,506] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 14:44:06,506] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:44:06,526] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 14:44:06,526] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:44:06,584] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 14:44:06,584] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 14:44:10,266] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 14:44:12,266] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：jd_8456195】字符串
+[2017-09-12 14:44:12,295] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 14:44:12,547] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 144412297.jpg
+[2017-09-12 14:44:12,556] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 14:44:12,690] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 14:44:12,693] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 14:44:12,694] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 14:44:15,906] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 14:44:18,034] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 14:59:25,348] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 14:59:25 CST 2017]; root of context hierarchy
+[2017-09-12 14:59:25,386] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 14:59:25,754] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 14:59:25,855] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 14:59:26,302] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 14:59:26,303] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 14:59:30,086] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 14:59:31,288] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/网址!
+[2017-09-12 14:59:32,306] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:59:32,361] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 14:59:32,362] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 14:59:32,433] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 14:59:32,433] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:59:32,453] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 14:59:32,453] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 14:59:32,511] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 14:59:32,512] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 14:59:34,685] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 14:59:36,687] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：欢迎您！客服一uat】字符串
+[2017-09-12 14:59:36,733] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 14:59:37,003] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 145936735.jpg
+[2017-09-12 14:59:37,010] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 14:59:37,149] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 14:59:37,151] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 14:59:37,151] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 14:59:40,332] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 14:59:43,870] ERROR org.yumin.zengDaWebUI.utils.SendMail 发送邮件失败！
+[2017-09-12 15:15:21,667] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 15:15:21 CST 2017]; root of context hierarchy
+[2017-09-12 15:15:21,705] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 15:15:22,061] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 15:15:22,184] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 15:15:22,726] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 15:15:22,727] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 15:15:26,689] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 15:15:28,056] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 15:15:29,096] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:29,149] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:29,149] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:15:29,219] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:170111]
+[2017-09-12 15:15:29,219] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:29,240] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:29,240] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:29,290] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:bbb]
+[2017-09-12 15:15:29,290] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:15:29,411] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:15:30,412] INFO  org.yumin.zengDaWebUI.utils.Assertion 验证是否出现预期的错误提示信息:账户名与密码不匹配，请重新输入:【Assert验证】:页面是否出现【预期值：账户名与密码不匹配，请重新输入】字符串
+[2017-09-12 15:15:30,436] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:15:30,714] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 151530439.jpg
+[2017-09-12 15:15:30,720] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:15:30,985] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例1.jpg
+[2017-09-12 15:15:30,987] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 15:15:30,987] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 15:15:30,988] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 15:15:31,337] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 15:15:32,351] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:32,386] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:32,386] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:15:32,448] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:170111]
+[2017-09-12 15:15:32,449] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:32,469] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:32,469] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:32,529] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 15:15:32,529] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:15:32,620] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:15:33,620] INFO  org.yumin.zengDaWebUI.utils.Assertion 验证是否出现预期的错误提示信息:密码不正确:【Assert验证】:页面是否出现【预期值：密码不正确】字符串
+[2017-09-12 15:15:33,643] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:15:33,877] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 151533645.jpg
+[2017-09-12 15:15:33,880] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:15:34,081] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例1.jpg
+[2017-09-12 15:15:34,083] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 15:15:34,083] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 15:15:34,084] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 15:15:34,394] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 15:15:35,403] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:35,439] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:35,439] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:15:35,490] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:]
+[2017-09-12 15:15:35,490] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:35,509] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:35,509] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:35,558] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:]
+[2017-09-12 15:15:35,558] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:15:35,586] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:15:36,586] INFO  org.yumin.zengDaWebUI.utils.Assertion 验证是否出现预期的错误提示信息:请输入账户名和密码:【Assert验证】:页面是否出现【预期值：请输入账户名和密码】字符串
+[2017-09-12 15:15:36,609] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:15:36,927] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 151536611.jpg
+[2017-09-12 15:15:36,930] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:15:37,150] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例1.jpg
+[2017-09-12 15:15:37,153] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 15:15:37,153] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 15:15:37,153] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---start
+[2017-09-12 15:15:37,403] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss/new/login.aspx网址!
+[2017-09-12 15:15:38,414] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:38,447] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:38,447] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:15:38,505] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:170111]
+[2017-09-12 15:15:38,505] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:38,524] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:38,524] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:38,570] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:]
+[2017-09-12 15:15:38,570] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:15:38,596] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:15:39,596] INFO  org.yumin.zengDaWebUI.utils.Assertion 验证是否出现预期的错误提示信息:请输入密码:【Assert验证】:页面是否出现【预期值：请输入密码】字符串
+[2017-09-12 15:15:39,618] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:15:39,839] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 151539619.jpg
+[2017-09-12 15:15:39,842] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:15:40,029] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录失败用例1.jpg
+[2017-09-12 15:15:40,031] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录失败用例--failed
+[2017-09-12 15:15:40,031] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录失败用例---end
+[2017-09-12 15:15:43,266] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 15:15:43,267] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 15:15:43,267] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 15:15:46,803] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 15:15:49,100] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss网址!
+[2017-09-12 15:15:50,114] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:50,161] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:50,161] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:15:50,235] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 15:15:50,235] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:50,256] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:15:50,256] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:15:50,316] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 15:15:50,316] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:15:54,771] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:15:56,773] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：个人中心】字符串
+[2017-09-12 15:15:56,803] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:15:57,112] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 151556805.jpg
+[2017-09-12 15:15:57,115] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:15:57,285] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 15:15:57,288] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 15:15:57,289] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 15:16:00,304] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 15:16:03,728] INFO  org.yumin.zengDaWebUI.utils.SendMail 发送邮件成功！
+[2017-09-12 15:16:59,553] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 15:16:59 CST 2017]; root of context hierarchy
+[2017-09-12 15:16:59,591] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 15:16:59,989] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 15:17:00,083] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 15:17:00,541] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 15:17:00,542] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 15:17:04,404] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 15:17:05,985] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss网址!
+[2017-09-12 15:17:07,001] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:17:07,052] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:17:07,052] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:17:07,118] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 15:17:07,118] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:17:07,137] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:17:07,137] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:17:07,192] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 15:17:07,193] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:17:10,047] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:17:12,047] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：个人中心】字符串
+[2017-09-12 15:17:12,076] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:17:12,342] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 151712078.jpg
+[2017-09-12 15:17:12,351] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:17:12,527] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 15:17:12,531] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 15:17:12,531] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 15:17:16,250] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 15:17:20,305] INFO  org.yumin.zengDaWebUI.utils.SendMail 发送邮件成功！
+[2017-09-12 15:35:31,408] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26a7b76d: startup date [Tue Sep 12 15:35:31 CST 2017]; root of context hierarchy
+[2017-09-12 15:35:31,448] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 15:35:31,799] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 15:35:31,897] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 15:36:14,406] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 15:36:14 CST 2017]; root of context hierarchy
+[2017-09-12 15:36:14,445] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 15:36:14,795] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 15:36:14,876] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 15:36:15,308] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 15:36:15,308] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 15:36:19,184] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 15:36:20,288] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss网址!
+[2017-09-12 15:36:21,312] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:36:21,373] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:36:21,374] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:36:21,440] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 15:36:21,441] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:36:21,461] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:36:21,461] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:36:21,516] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 15:36:21,516] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:36:24,632] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:36:26,632] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：管理系统】字符串
+[2017-09-12 15:36:26,689] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:36:26,968] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 153626691.jpg
+[2017-09-12 15:36:26,974] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:36:27,123] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 15:36:27,126] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 15:36:27,126] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 15:36:30,311] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 15:36:34,681] INFO  org.yumin.zengDaWebUI.utils.SendMail 发送邮件成功！
+[2017-09-12 15:44:13,642] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d3167f4: startup date [Tue Sep 12 15:44:13 CST 2017]; root of context hierarchy
+[2017-09-12 15:44:13,678] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 15:44:14,040] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 15:44:14,113] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 15:44:14,550] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 15:44:14,550] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 15:44:18,584] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 15:44:19,527] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss网址!
+[2017-09-12 15:44:20,548] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:44:20,601] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:44:20,601] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 15:44:20,665] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 15:44:20,666] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:44:20,683] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 15:44:20,684] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 15:44:20,733] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 15:44:20,733] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 15:44:22,430] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 15:44:24,431] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：管理系统】字符串
+[2017-09-12 15:44:24,476] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 15:44:24,732] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 154424478.jpg
+[2017-09-12 15:44:24,740] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 15:44:24,889] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 15:44:24,892] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 15:44:24,892] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 15:44:28,909] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 15:44:32,549] INFO  org.yumin.zengDaWebUI.utils.SendMail 发送邮件成功！
+[2017-09-12 16:39:23,292] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@491cc5c9: startup date [Tue Sep 12 16:39:23 CST 2017]; root of context hierarchy
+[2017-09-12 16:39:23,328] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 16:39:23,759] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 16:39:23,844] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 16:39:24,280] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 16:39:24,280] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 16:39:29,479] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss网址!
+[2017-09-12 16:39:30,501] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 16:39:30,566] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 16:39:30,567] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 16:39:30,635] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 16:39:30,635] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 16:39:30,658] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 16:39:30,658] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 16:39:30,714] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 16:39:30,714] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 16:39:33,598] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 16:39:35,603] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：管理系统】字符串
+[2017-09-12 16:39:35,655] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 16:39:35,913] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 163935657.jpg
+[2017-09-12 16:39:39,076] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 17:00:52,870] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@491cc5c9: startup date [Tue Sep 12 17:00:52 CST 2017]; root of context hierarchy
+[2017-09-12 17:00:52,915] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 17:00:53,251] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 17:00:53,338] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 17:00:53,752] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 17:00:53,753] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 17:00:57,552] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 17:00:59,288] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss网址!
+[2017-09-12 17:01:00,304] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 17:01:00,374] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 17:01:00,374] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 17:01:00,441] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 17:01:00,441] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 17:01:00,460] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 17:01:00,460] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 17:01:00,516] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 17:01:00,516] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 17:01:02,440] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 17:01:04,441] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：管理系统】字符串
+[2017-09-12 17:01:04,476] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 17:01:04,766] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 170104478.jpg
+[2017-09-12 17:01:04,772] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 17:01:04,935] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 17:01:04,937] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 17:01:04,937] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 17:01:08,044] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 17:01:11,300] INFO  org.yumin.zengDaWebUI.utils.SendMail 发送邮件成功！
+[2017-09-12 17:04:20,328] INFO  org.springframework.context.support.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@491cc5c9: startup date [Tue Sep 12 17:04:20 CST 2017]; root of context hierarchy
+[2017-09-12 17:04:20,367] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2017-09-12 17:04:20,726] INFO  com.mchange.v2.log.MLog MLog clients using log4j logging.
+[2017-09-12 17:04:20,832] INFO  com.mchange.v2.c3p0.C3P0Registry Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+[2017-09-12 17:04:21,274] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase ------------------开始执行测试---------------
+[2017-09-12 17:04:21,274] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase 读取testng.xml配置的ChromeDriver浏览器并将其初始化
+
+[2017-09-12 17:04:25,037] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---start
+[2017-09-12 17:04:26,089] INFO  org.yumin.zengDaWebUI.pageObject.LoginPage 打开浏览器，访问http://cfs-uat.ezendai.com:8080/cfs-web-boss网址!
+[2017-09-12 17:04:27,126] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 17:04:27,193] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 17:04:27,193] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：用户名输入框方式[By.id:username]
+[2017-09-12 17:04:27,263] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：用户名输入框[By.id:usernamevalue:kf1uat]
+[2017-09-12 17:04:27,263] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 17:04:27,284] INFO  org.yumin.zengDaWebUI.utils.ElementAction 清除input值:密码输入框[By.id:password]
+[2017-09-12 17:04:27,285] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：密码输入框方式[By.id:password]
+[2017-09-12 17:04:27,338] INFO  org.yumin.zengDaWebUI.utils.ElementAction input输入：密码输入框[By.id:passwordvalue:Zd123456]
+[2017-09-12 17:04:27,338] INFO  org.yumin.zengDaWebUI.utils.ElementAction 查找元素：登录按钮方式[By.id:login_form]
+[2017-09-12 17:04:29,143] INFO  org.yumin.zengDaWebUI.utils.ElementAction submit元素：登录按钮[By.id:login_form]成功！
+[2017-09-12 17:04:31,143] INFO  org.yumin.zengDaWebUI.utils.Assertion 输入正确的用户名和密码，验证是否成功进入主页:【Assert验证】:页面是否出现【预期值：管理系统】字符串
+[2017-09-12 17:04:31,173] ERROR org.yumin.zengDaWebUI.utils.Assertion 【Assert验证  failed!】
+[2017-09-12 17:04:31,392] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\2017-09-12 170431175.jpg
+[2017-09-12 17:04:31,399] ERROR org.yumin.zengDaWebUI.utils.TestListener 1
+[2017-09-12 17:04:31,564] ERROR org.yumin.zengDaWebUI.utils.ScreenShot 错误截图：E:\auto\myproject.git\trunk\ZengDaWebUi\test-output\snapshot\登录成功测试1.jpg
+[2017-09-12 17:04:31,567] ERROR org.yumin.zengDaWebUI.utils.TestListener 测试用例: 登录成功测试--failed
+[2017-09-12 17:04:31,567] INFO  org.yumin.zengDaWebUI.utils.TestListener 测试用例:登录成功测试---end
+[2017-09-12 17:04:34,733] INFO  org.yumin.zengDaWebUI.utils.TestBaseCase -------------结束测试，并关闭退出浏览器-------------
+[2017-09-12 17:04:38,093] INFO  org.yumin.zengDaWebUI.utils.SendMail 发送邮件成功！
