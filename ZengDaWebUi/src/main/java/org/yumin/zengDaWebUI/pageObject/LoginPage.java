@@ -52,4 +52,6 @@ public LocatorInfo 登录按钮() throws IOException
    LocatorInfo locator=getLocator("登录按钮");
    return locator;
  }
+
+
 }

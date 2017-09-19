@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a308bcbb-44f6-48d0-9629-fd94a752c4c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/PageObjectReadUtil.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/db/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/AccountMangerPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/AppointmentDetailPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/AppointmentPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/HomePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/OmsHomePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/ConnDb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/DataFormat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/XmlReadUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/readme.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/CommonAction.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/CommonAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/LoginAction.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/LoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/dao/UiDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/dao/UiDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/dao/impl/UiDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/dao/impl/UiDaoImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObjectConfig/PageObjectAutoCode.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObjectConfig/PageObjectAutoCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/test/TestUi.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/test/TestUi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/Assertion.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/Assertion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/AssertionCheckPoint.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/AssertionCheckPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/BaseAction.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/BaseAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/CopyReportResources.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/CopyReportResources.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/FileManger.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/FileManger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/ScreenShot.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/ScreenShot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/TestBaseCase.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/TestBaseCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/TestListener.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/TestListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/TestReport.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/TestReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/UiDaoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UiDaoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PatatiumWebUi.iml" afterPath="$PROJECT_DIR$/AutoWebUi.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/db/UItable.sql" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql/UItable.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/ElementAction.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/ElementAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/Locator.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/entries/Locator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/Log.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/entries/Log.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/SendMail.java" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/email/SendMail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql/UItable.sql" afterPath="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql/UItable.sql" />
     </list>
     <ignored path="patatiumwebui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,20 +29,31 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="patatiumwebui" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestUi.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/test/TestUi.java">
+      <file leaf-file-name="UItable.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql/UItable.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3591954">
-              <caret line="54" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-              <folding>
-                <element signature="e#717#738#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.50431037">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/data/cookieData.js" />
         <option value="$PROJECT_DIR$/src/main/java/org/webdriver/patatiumwebui/utils/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/webdriver/patatiumwebui/pageObjectConfig/GetXmlPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/webdriver/patatiumwebui/utils/ElementAction.java" />
@@ -136,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/entries/LocatorInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/PageObjectReadUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObjectConfig/PageObjectAutoCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/ApplyLoanPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/ElementAction.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
@@ -154,6 +129,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/entries/Locator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/ElementAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/email/SendMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql/UItable.sql" />
       </list>
     </option>
   </component>
@@ -428,7 +405,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mappers" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,13 +435,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZengDaWebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZengDaWebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zengDaWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZengDaWebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZengDaWebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zengDaWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageObject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -1148,7 +1185,7 @@
       <workItem from="1505354044119" duration="98000" />
       <workItem from="1505697066530" duration="2702000" />
       <workItem from="1505701021047" duration="84000" />
-      <workItem from="1505701302512" duration="20852000" />
+      <workItem from="1505701302512" duration="34421000" />
     </task>
     <task id="LOCAL-00001" summary="更新监听器，fileManger类增加写文件指定编码的方法">
       <created>1472391762665</created>
@@ -1306,7 +1343,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234987000" />
+    <option name="totallyTimeSpent" value="248556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1319,19 +1356,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-8" width="1541" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5078178" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60273975" sideWeight="0.50645816" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72602737" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.90136987" sideWeight="0.4921822" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78356165" sideWeight="0.4935418" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4228416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2889191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5972603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.239293" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1414,34 +1452,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/apache-maven-3.3.9/Repository/org/testng/testng/6.9.5/testng-6.9.5.jar!/org/testng/ISuite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31428573">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33233082">
-          <caret line="341" column="14" selection-start-line="341" selection-start-column="4" selection-end-line="341" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.3.9/Repository/org/testng/testng/6.9.5/testng-6.9.5.jar!/org/testng/IResultMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.384127">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33233082">
-          <caret line="306" column="19" selection-start-line="306" selection-start-column="19" selection-end-line="306" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/apache-maven-3.3.9/Repository/org/testng/testng/6.9.5/testng-6.9.5.jar!/org/testng/ITestResult.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20952381">
@@ -1623,28 +1633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObjectConfig/PageObjectAutoCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22126436">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/BaseAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46264368">
           <caret line="114" column="5" selection-start-line="109" selection-start-column="4" selection-end-line="114" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22126436">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1675,14 +1667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06321839">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output/snapshot/登录成功测试1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1701,16 +1685,6 @@
         <state vertical-scroll-proportion="1.5689656">
           <caret line="77" column="5" selection-start-line="72" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37931034">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1739,14 +1713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14569536">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/ExcelReadUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.81356">
-          <caret line="25" column="29" selection-start-line="21" selection-start-column="24" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1817,21 +1783,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql/UItable.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/test/TestUi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26626325">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.7155172">
+          <caret line="54" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#717#738#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/cookieData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86766917">
+          <caret line="163" column="21" selection-start-line="156" selection-start-column="12" selection-end-line="163" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/test/TestUi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3591954">
-          <caret line="54" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.29774436">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/utils/ExcelReadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21408045">
+          <caret line="26" column="26" selection-start-line="21" selection-start-column="14" selection-end-line="26" selection-end-column="26" />
           <folding>
-            <element signature="e#717#738#0" expanded="true" />
+            <element signature="e#850#858#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09913793">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8f3c0ca0-3f10-4944-a9cc-8bf21a4ae8ea/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8327586">
+          <caret line="24" column="40" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObject/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20689656">
+          <caret line="42" column="2" selection-start-line="38" selection-start-column="0" selection-end-line="42" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/pageObjectConfig/PageObjectAutoCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4051724">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yumin/zengDaWebUI/sql/UItable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50431037">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
