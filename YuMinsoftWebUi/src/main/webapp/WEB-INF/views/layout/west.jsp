@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<div class="wu-sidebar" data-options="region:'west',split:true,border:true,title:'导航菜单'">
-    <div class="easyui-accordion" data-options="border:false,fit:true">
-        <div title="快捷菜单" data-options="iconCls:'icon-application-cascade'" style="padding:5px;">
+<div class="wu-sidebar" data-options="region:'west',split:true,border:false,title:'郁敏科技菜单'">
+    <div class="easyui-accordion" data-options="border:true,fit:true">
+        <div title="自动化平台管理菜单" data-options="iconCls:'icon-application-cascade'" style="padding:5px;">
             <ul class="easyui-tree wu-side-tree">
-<%--
-                <li iconCls="icon-chart-organisation"><a href="javascript:void(0)" data-icon="icon-chart-organisation" data-link="/page/getlayout3" iframe="0">菜单导航</a></li>
---%>
                 <li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="/page/getlayout1" iframe="0">用户管理</a></li>
                 <li iconCls="icon-user-group"><a href="javascript:void(0)" data-icon="icon-user-group" data-link="/page/getlayout3" iframe="0">角色管理</a></li>
                 <li iconCls="icon-book"><a href="javascript:void(0)" data-icon="icon-book" data-link="/page/getlayout3" iframe="0">数据字典</a></li>
@@ -19,7 +16,7 @@
                 <li iconCls="icon-application-osx-error"><a href="javascript:void(0)" data-icon="icon-application-osx-error" data-link="/page/getlayout3" iframe="0">操作日志</a></li>
             </ul>
         </div>
-        <%--<div title="内容管理" data-options="iconCls:'icon-application-form-edit'" style="padding:5px;">
+        <%--div title="内容管理" data-options="iconCls:'icon-application-form-edit'" style="padding:5px;">
             <ul class="easyui-tree wu-side-tree">
                 <li iconCls="icon-chart-organisation"><a href="javascript:void(0)" data-icon="icon-chart-organisation" data-link="/page/getlayout3" iframe="0">导航标题</a></li>
                 <li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="/page/getlayout3" iframe="0">导航标题</a></li>

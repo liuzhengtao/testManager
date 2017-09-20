@@ -24,6 +24,13 @@
         <processorPath useClasspath="true" />
         <module name="spring-mybatis" />
       </profile>
+      <profile default="false" name="Annotation profile for YuMinAutoWebUi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="YuMinAutoWebUi" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-mybatis" target="1.7" />

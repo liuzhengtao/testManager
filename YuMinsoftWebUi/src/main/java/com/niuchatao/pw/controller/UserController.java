@@ -88,6 +88,7 @@ public class UserController {
     }
     @RequestMapping(value = "/addUser")
     public UserResult addUser(String name,String pwd){
+        logger.info(name);
         User user= new User();
         user.setName(name);
         user.setPwd(DigestUtils.md5DigestAsHex(pwd.getBytes()));

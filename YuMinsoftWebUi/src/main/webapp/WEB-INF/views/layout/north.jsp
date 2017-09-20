@@ -5,7 +5,7 @@
 <body>
 <div class="wu-header" data-options="region:'north',border:false,split:true">
     <div class="wu-header-left">
-        <h1>证大财富管理系统</h1>
+        <h1>郁敏科技自动化平台管理中心</h1>
     </div>
     <div class="wu-header-right">
         <p><strong class="easyui-tooltip" title="${1}" style="color: red">${name}</strong>，欢迎您！</p>

@@ -1,5 +1,5 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="copyright" content="All Rights Reserved, Copyright (C) 2013, Wuyeguo, Ltd." />
+<meta name="copyright" content="All Rights Reserved, Copyright (C)2017 www.yuminsoft.com." />
 <link rel="icon" href="/resources/img/yumin.png" type="image/x-icon"/>
 <link rel="stylesheet" href="/resources/framwork/EasyUI/themes/default/easyui.css" rel="stylesheet">
 <link rel="stylesheet" href="/resources/framwork/EasyUI/themes/icon.css" rel="stylesheet">
