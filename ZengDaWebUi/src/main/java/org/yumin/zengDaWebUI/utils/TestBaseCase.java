@@ -113,9 +113,11 @@ public class TestBaseCase {
 			case "ChromeDriver":
 				// System.setProperty("webdriver.chrome.driver", "E:\\autotest\\autotmaiton\\resource\\chromedriver.exe");
 				//driver=new ChromeDriver();
+				System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 				DesiredCapabilities dcchorme=DesiredCapabilities.chrome();
 				dcchorme.setBrowserName("chrome");
-				dcchorme.setVersion("46.0.2490.86 m");
+				//dcchorme.setVersion("46.0.2490.86 m");
+				dcchorme.setVersion("55.0.2883.87 m");
 				dcchorme.setPlatform(Platform.WINDOWS);
 				driver=new RemoteWebDriver(new URL(nodeURL), dcchorme);
 				break;

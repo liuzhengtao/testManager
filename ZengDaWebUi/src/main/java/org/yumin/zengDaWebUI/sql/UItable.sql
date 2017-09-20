@@ -1,4 +1,4 @@
-use page_object;
+use web_ui;
 
 -- ----------------页面对象数据表---------------------------------
 
@@ -16,7 +16,7 @@ p_desc VARCHAR(255) comment '页面对象中文描述',
 
 p_locator_id int not null COMMENT '页面中空间对象id'
 
-)ENGINE = INNODB default charset= 'utf8';
+)ENGINE = INNODB default charset= 'utf8' COMMENT '页面对象数据表';
 
 
 
@@ -41,7 +41,7 @@ l_timeout int  COMMENT '元素加载时间',
 
 l_function VARCHAR(255) not null COMMENT '控件操作方法'
 
-)ENGINE = INNODB default charset= 'utf8';
+)ENGINE = INNODB default charset= 'utf8' COMMENT 'locator_info';
 
 
 -- ----------------用例对象数据表---------------------------------
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS case_info(
 
   c_enforcement VARCHAR(255)  COMMENT '用例执行结果'
 
-)ENGINE = INNODB default charset= 'utf8';
+)ENGINE = INNODB default charset= 'utf8' COMMENT '用例对象数据表';
 
 
 
@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS model_info(
 
   c_id INT not null COMMENT '用例编号id'
 
-)ENGINE = INNODB default charset= 'utf8';
+)ENGINE = INNODB default charset= 'utf8' COMMENT '模块管理表数据表';
 
 
 -- ----------------步骤管理数据表---------------------------------
@@ -99,4 +99,4 @@ CREATE TABLE IF NOT EXISTS step_info(
 
   s_num INT  COMMENT '步骤排序号'
 
-)ENGINE = INNODB default charset= 'utf8';
+)ENGINE = INNODB default charset= 'utf8' COMMENT '步骤管理数据表';

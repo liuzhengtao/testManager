@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="YuMinAutoWebUi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="YuMinSoftWebUi.war">
+      <element id="artifact" artifact-name="YuMinAutoWebUi:war exploded" />
+    </root>
+  </artifact>
+</component>

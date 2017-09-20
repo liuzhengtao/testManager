@@ -1,0 +1,25 @@
+body{
+   padding: 0px;
+   margin: 0px;
+   background-color: #0E2D5F;
+}
+.fitem{
+   padding:10px 0;
+}
+.ftitle{
+   padding: 10px 0;
+}
+#dlg-buttons{
+   padding:10px 0;
+   text-align: center;
+}
+#dd{
+   background-color: #00bbee;
+}
+input{
+   padding: 10px;
+   width: 150px;
+}
+label{
+   text-align: left;
+}
