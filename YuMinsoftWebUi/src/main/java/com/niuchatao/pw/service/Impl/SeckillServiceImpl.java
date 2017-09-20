@@ -1,7 +1,7 @@
 package com.niuchatao.pw.service.Impl;
 
-import com.niuchatao.pw.dao.SeckillDao;
-import com.niuchatao.pw.dao.SuccessKilledDao;
+import com.niuchatao.pw.dao.CasePageDao;
+import com.niuchatao.pw.dao.ObjectPageDao;
 import com.niuchatao.pw.dto.Execution;
 import com.niuchatao.pw.dto.Exposer;
 import com.niuchatao.pw.dto.UpdateResult;
@@ -18,10 +18,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
-import javax.annotation.Resource;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -33,9 +29,9 @@ public class SeckillServiceImpl implements SeckillService {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     @Autowired
-    private SeckillDao seckillDao;
+    private CasePageDao seckillDao;
     @Autowired
-    private SuccessKilledDao successKilledDao;
+    private ObjectPageDao successKilledDao;
     //一种加密的混淆key
     private String slat = "adeirwsdADSF@#@(*";
 

@@ -1,6 +1,6 @@
 package dao;
 
-import com.niuchatao.pw.dao.SeckillDao;
+import com.niuchatao.pw.dao.CasePageDao;
 import com.niuchatao.pw.entries.Seckill;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +21,7 @@ public class SeckillDaoTest {
 
     //注入Dao实现类依赖
     @Resource
-    private SeckillDao seckillDao;
+    private CasePageDao seckillDao;
     @Test
     public void testReduceNumber() throws Exception {
       //int customid=seckillDao.reduceNumber();

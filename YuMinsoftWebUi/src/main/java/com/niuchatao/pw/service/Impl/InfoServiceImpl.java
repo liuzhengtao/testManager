@@ -1,10 +1,9 @@
 package com.niuchatao.pw.service.Impl;
 
-import com.niuchatao.pw.dao.InfoDao;
+import com.niuchatao.pw.dao.ModelPageDao;
 import com.niuchatao.pw.dto.InfoResult;
 import com.niuchatao.pw.entries.Info;
 import com.niuchatao.pw.enums.InfoStatEnum;
-import com.niuchatao.pw.exception.InfoException;
 import com.niuchatao.pw.service.InfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,7 +17,7 @@ import java.util.List;
 public class InfoServiceImpl implements InfoService {
 
     @Autowired
-    private InfoDao infoDao;
+    private ModelPageDao infoDao;
 
     @Override
     public List<Info> getAll() {

@@ -1,6 +1,6 @@
 package com.niuchatao.pw.service;
 
-import com.niuchatao.pw.dao.SeckillDao;
+import com.niuchatao.pw.dao.CasePageDao;
 import com.niuchatao.pw.entries.Seckill;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.List;
 public class HomeService {
 
     @Resource
-    private SeckillDao seckillDao;
+    private CasePageDao seckillDao;
     Seckill seckill=null;
     public Seckill queryId(String id){
 

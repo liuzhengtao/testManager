@@ -1,6 +1,6 @@
 package com.niuchatao.pw.service.Impl;
 
-import com.niuchatao.pw.dao.UserDao;
+import com.niuchatao.pw.dao.UserPageDao;
 import com.niuchatao.pw.dto.UserResult;
 import com.niuchatao.pw.entries.User;
 import com.niuchatao.pw.service.UserService;
@@ -18,11 +18,11 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
     @Autowired
-    private UserDao userDao;
+    private UserPageDao userPageDao;
 
     @Override
     public User getByNameAndPwd(String name, String pwd) {
-        User user = userDao.getByNameAndPwd(name,pwd);
+        User user = userPageDao.getByNameAndPwd(name,pwd);
         if(user!=null && !user.equals("")){
             return user;
         }
@@ -34,17 +34,17 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getById(int id) {
 
-        return userDao.getById(id);
+        return userPageDao.getById(id);
     }
 
     @Override
     public List<User> getAll() {
-        return userDao.getAll();
+        return userPageDao.getAll();
     }
 
     @Override
     public int updateUser(User user) {
-        int updateCount= userDao.updateUser(user);
+        int updateCount= userPageDao.updateUser(user);
         if(updateCount<=0){
            return 0;
         }
@@ -54,11 +54,11 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserResult addUser(User user) {
         List list = new ArrayList();
-        int addNum=userDao.addUser(user.getName(),user.getPwd());
+        int addNum= userPageDao.addUser(user.getName(),user.getPwd());
         if(addNum<=0){
             return new UserResult(405,"添加失败");
         }else {
-            User user1 = userDao.getById(addNum);
+            User user1 = userPageDao.getById(addNum);
             list.add(user1);
         }
         return new UserResult(200,"添加成功",list);
@@ -66,7 +66,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserResult deleteOneUser(int id) {
-       int delCount = userDao.deleteOneUser(id);
+       int delCount = userPageDao.deleteOneUser(id);
         if(delCount<=0){
             return  new UserResult(408,"删除失败！！");
         }

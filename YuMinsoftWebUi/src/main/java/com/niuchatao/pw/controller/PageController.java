@@ -1,17 +1,14 @@
 package com.niuchatao.pw.controller;
 
-import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.logging.SimpleFormatter;
 
 /**
  * 页面跳转的控制器
@@ -34,11 +31,61 @@ public class PageController {
         }
     }
 
-    @RequestMapping("/getlayout1")
-    public String getLayout1(HttpSession httpSession){
+    @RequestMapping("/getUserPage")
+    public String getUserPage(HttpSession httpSession){
         try {
             if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
-                return "/temp/layout-1";
+                return "page/userpage";
+            }
+            return "login";
+        }catch (NullPointerException e){
+            return "login";
+        }
+    }
+
+    @RequestMapping("/getObjectPage")
+    public String getObjectPage(HttpSession httpSession){
+        try {
+            if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
+                return "page/objectpage";
+            }
+            return "login";
+        }catch (NullPointerException e){
+            return "login";
+        }
+    }
+
+
+    @RequestMapping("/getStepPage")
+    public String getStepPage(HttpSession httpSession){
+        try {
+            if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
+                return "page/steppage";
+            }
+            return "login";
+        }catch (NullPointerException e){
+            return "login";
+        }
+    }
+
+    @RequestMapping("/getRolePage")
+    public String getRolePage(HttpSession httpSession){
+        try {
+            if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
+                return "page/rolepage";
+            }
+            return "login";
+        }catch (NullPointerException e){
+            return "login";
+        }
+    }
+
+
+    @RequestMapping("/getCasePage")
+    public String getCasePage(HttpSession httpSession){
+        try {
+            if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
+                return "page/casepage";
             }
             return "login";
         }catch (NullPointerException e){
@@ -50,7 +97,7 @@ public class PageController {
     public String getLayout2(HttpSession httpSession){
         try {
             if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
-                return "/temp/layout-2";
+                return "/page/layout-2";
             }
             return "login";
         }catch (NullPointerException e){
@@ -58,11 +105,11 @@ public class PageController {
         }
     }
 
-    @RequestMapping("/getlayout3")
-    public String getLayout3(HttpSession httpSession){
+    @RequestMapping("/getModelPage")
+    public String getModelPage(HttpSession httpSession){
          try {
              if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
-                 return "/temp/layout-3";
+                 return "page/modelpage";
              }
              return "login";
          }catch (NullPointerException e){
