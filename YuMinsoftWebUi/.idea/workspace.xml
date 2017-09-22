@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4028232f-0305-4ca9-b893-fbc728ea7cde" name="Default" comment="">
+    <list default="true" id="4028232f-0305-4ca9-b893-fbc728ea7cde" name="Default" comment="UI界面开发提交代码">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/target/surefire-reports/Suite/登录成功测试用例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/target/surefire-reports/Suite/登录成功测试用例.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/test-output/log/2017-09-20/log_2017-09-20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ZengDaWebUi/test-output/log/2017-09-20/log_2017-09-20.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/sql/autowebui.sql" afterPath="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/sql/autowebui.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/steppage.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/steppage.jsp" />
     </list>
     <ignored path="spring-mybatis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1159,8 +1165,15 @@
       <workItem from="1490978391605" duration="786000" />
       <workItem from="1505885151955" duration="2645000" />
       <workItem from="1505888066693" duration="48004000" />
-      <workItem from="1506044640061" duration="19629000" />
+      <workItem from="1506044640061" duration="20091000" />
     </task>
+    <task id="LOCAL-00001" summary="UI界面开发提交代码">
+      <created>1506072063929</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506072063929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1169,7 +1182,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94571000" />
+    <option name="totallyTimeSpent" value="95033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-8" width="1541" height="916" extended-state="6" />
@@ -1245,6 +1258,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UI界面开发提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI界面开发提交代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
