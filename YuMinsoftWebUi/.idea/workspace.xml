@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4028232f-0305-4ca9-b893-fbc728ea7cde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/classes/com/niuchatao/pw/controller/PageController.class" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/classes/com/niuchatao/pw/controller/PageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/niuchatao/pw/controller/PageController.class" afterPath="$PROJECT_DIR$/target/classes/com/niuchatao/pw/controller/PageController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/controller/PageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/controller/PageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/center.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/center.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/north.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/north.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/south.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/south.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/west.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/west.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/casepage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/casepage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/modelpage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/modelpage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/objectpage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/objectpage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/userpage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/userpage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/public/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/public/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/wu.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/wu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/index/common.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/index/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/public/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/public/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/center.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/center.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/north.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/north.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/south.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/south.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/west.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/layout/west.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/casepage.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/casepage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/modelpage.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/modelpage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/objectpage.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/objectpage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/userpage.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/userpage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/public/head.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/public/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/css/style.css" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/css/wu.css" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/css/wu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/js/index/common.js" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/js/index/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/js/public/index.js" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/resources/js/public/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ZengDaWebUi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ZengDaWebUi/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ZengDaWebUi/src/main/java/org/yumin/zengDaWebUI/pageObjectConfig/PageObjectAutoCode.java" afterPath="$PROJECT_DIR$/../ZengDaWebUi/src/main/java/org/yumin/zengDaWebUI/pageObjectConfig/PageObjectAutoCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/sql/autowebui.sql" afterPath="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/sql/autowebui.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/steppage.jsp" afterPath="$PROJECT_DIR$/target/YuMinSoftWebUi/WEB-INF/views/page/steppage.jsp" />
     </list>
     <ignored path="spring-mybatis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,12 +42,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="west.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/west.jsp">
+      <file leaf-file-name="steppage.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57054263">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="4.983871">
+              <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+              <folding>
+                <marker date="1506071188871" expanded="true" signature="9526:9580" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/config/spring-dao.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/sql/autowebui.sql" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/controller/UserController.java" />
@@ -131,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/temp/layout-1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/temp/layout-3.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/objectPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/rolepage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/dao/ModelPageDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -152,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/locatorpage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/casepage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/west.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/niuchatao/pw/sql/autowebui.sql" />
       </list>
     </option>
   </component>
@@ -441,6 +412,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YuMinsoftWebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1158,7 +1159,7 @@
       <workItem from="1490978391605" duration="786000" />
       <workItem from="1505885151955" duration="2645000" />
       <workItem from="1505888066693" duration="48004000" />
-      <workItem from="1506044640061" duration="13845000" />
+      <workItem from="1506044640061" duration="19629000" />
     </task>
     <servers />
   </component>
@@ -1168,27 +1169,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88787000" />
+    <option name="totallyTimeSpent" value="94571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="-8" width="1541" height="916" extended-state="7" />
-    <editor active="true" />
+    <frame x="67" y="-8" width="1541" height="916" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04931507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6082192" sideWeight="0.5022523" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.50373894" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29863015" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.026027398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49626106" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1896669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23045547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0774983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1256,11 +1257,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/framwork/EasyUI/themes/icons/application_cascade.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/framwork/EasyUI/themes/icons/application_edit.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1332,14 +1328,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/rolepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34638554">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34638554">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
@@ -1436,6 +1424,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48493975">
           <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1461,6 +1450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1584,16 +1574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/locatorpage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9785933">
-          <caret line="92" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="312" selection-end-column="7" />
-          <folding>
-            <marker date="1506057485435" expanded="true" signature="11107:11161" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/layout-2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28134558">
@@ -1614,9 +1594,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/west.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57054263">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.53488374">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/locatorpage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5503876">
+          <caret line="80" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="312" selection-end-column="7" />
+          <folding>
+            <marker date="1506057485435" expanded="true" signature="11107:11161" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/niuchatao/pw/sql/autowebui.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9304085">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page/steppage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.983871">
+          <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+          <folding>
+            <marker date="1506071188871" expanded="true" signature="9526:9580" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
