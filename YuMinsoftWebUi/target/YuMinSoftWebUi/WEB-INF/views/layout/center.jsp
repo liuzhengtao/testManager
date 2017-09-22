@@ -4,7 +4,7 @@
 <head>
 </head>
 <body>
-<div class="wu-main" data-options="region:'center'">
+<div class="wu-main" data-options="region:'center',border:false" >
     <div id="wu-tabs" class="easyui-tabs" data-options="border:false,fit:true">
         <div title="首页" data-options="href:'/page/getlayout2',closable:true,iconCls:'icon-bin-empty',cls:'pd3'"></div>
     </div>

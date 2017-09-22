@@ -64,16 +64,6 @@
 <!-- End of easyui-dialog -->
 <script type="text/javascript">
 	/**
-	 * Name 载入菜单树
-	 */
-	/*$('#wu-category-tree').tree({
-		url:'/seckill/getMenu',
-		onClick:function(node){
-			alert(node.text);
-		}
-	});*/
-
-	/**
 	 * Name 添加记录
 	 */
 	function add(){
@@ -182,24 +172,13 @@
 	 * Name 打开添加窗口
 	 */
 	function openAdd(){
+		var data={
+			title:'添加用户记录',
+			className:'wu-dialog'
+
+		};
 		$('#wu-form').form('clear');
-		$('#wu-dialog').dialog({
-			closed: false,
-			modal:true,
-			title: "添加用户记录",
-			buttons: [{
-				text: '保存',
-				iconCls: 'icon-save',
-				handler: add
-			}, {
-				text: '取消',
-				iconCls: 'icon-cancel',
-				handler: function () {
-					$('#wu-dialog').dialog('close');
-				}
-			}]
-		});
-		$('#wu-dialog').dialog('center');
+		Page.openAdd(data);
 	}
 
 	/**
@@ -256,7 +235,7 @@
 	/**
 	 * Name 分页过滤器
 	 */
-	function pagerFilter(data){
+	/*function pagerFilter(data){
 		if (typeof data.length == 'number' && typeof data.splice == 'function'){// is array
 			data = {
 				total: data.length,
@@ -281,7 +260,7 @@
 		var end = start + parseInt(opts.pageSize);
 		data.rows = (data.originalRows.slice(start, end));
 		return data;
-	}
+	}*/
 
 	/**
 	 * Name 载入数据

@@ -3,101 +3,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style type="text/css">
-        #bm{
-            padding: 100px;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
 <div class="easyui-layout" data-options="fit:true">
-    <%--<div data-options="region:'west',border:true,split:true," title="分类管理" style="width:150px; padding:5px;">
-        <ul id="wu-category-tree" class="easyui-tree">
-
-        </ul>
-    </div>--%>
-    <div data-options="region:'center',border:false">
-        <!-- Begin of toolbar -->
-        <div id="wu-toolbar-medel">
-            <div class="wu-toolbar-button">
-                <a href="#" class="easyui-linkbutton" iconCls="icon-add" onclick="openAdd()" plain="true">添加</a>
-                <a href="#" class="easyui-linkbutton" iconCls="icon-edit" onclick="openEdit()" plain="true">修改</a>
-                <a href="#" class="easyui-linkbutton" iconCls="icon-remove" onclick="remove()" plain="true">删除</a>
-                <a href="#" class="easyui-linkbutton" iconCls="icon-reload" onclick="reload()" plain="true">刷新</a>
+    <div data-options="region:'center;fit:true',border:false" style="height: 300px;height: 400px;">
+        <div class="wu-toolbar-button" style="padding-bottom: 10px;padding-top: 20px;">
+            <a href="#" class="easyui-linkbutton" iconCls="icon-add" onclick="openAdd()" plain="true">添加</a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-edit" onclick="openEdit()" plain="true">修改</a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-remove" onclick="remove()" plain="true">删除</a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-reload" onclick="reload()" plain="true">刷新</a>
+        </div>
+        <div class="wu-toolbar-search-model" style="margin-left: 13px;">
+            <div class="page-model" style="padding: 4px 0 13px 0;">
+                <label>模块编号：</label><input class="wu-text" id="m_Id" style="width:100px">
+                <label>&nbsp;&nbsp;&nbsp;</label>
+                <label>模块名称：</label><input id="m_name" class="wu-text" style="width:100px" >
+                <label>&nbsp;&nbsp;&nbsp;</label>
+                <label>用例编号：</label><input id="c_id" class="wu-text" style="width:100px" >
+            </div>
+            <div class="page-time" style="padding: 4px 0 13px 0;margin: 0 0 0 0;">
+                <label>起始时间：</label><input id="startTime" class="easyui-datebox" style="width:100px">
+                <label>&nbsp;&nbsp;&nbsp;</label>
+                <label>结束时间：</label><input id="endTime" class="easyui-datebox" style="width:100px">
+                <label>&nbsp;&nbsp;&nbsp;</label>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-search" id="pSearch">搜索</a>
             </div>
         </div>
-        <!-- End of toolbar -->
-        <table id="wu-datagrid-model" toolbar="#wu-toolbar-medel">
-        </table>
+        <!-- Begin of toolbar -->
+        <table id="wu-datagrid-model" toolbar="#" border="0"></table>
     </div>
 </div>
 <!-- Begin of easyui-dialog -->
-<div id="wu-dialog-model" class="easyui-dialog" data-options="closed:true,iconCls:'icon-ok'" style="width:280px; height: 450px;padding:60px;text-align:center">
-    <form id="wu-form-model" method="post">
-        <input type="hidden" id="id" name="id" value="">
-        <div style="text-align: center"> <span id="mmessage" style="color: red;display: none;"></span></div>
-        <div>
-            <span>用户名：</span>
-            <input class="easyui-textbox" type="text" id ="name" name="name" data-options="required:true,iconCls:'icon-user'" onfocus="onmblur()">
+<div id="wu-dialog-model" class="easyui-dialog" data-options="closed:true,iconCls:'icon-book-add'" style="width:450px; height:400px;padding:40px;text-align:center;background-color: #9d9d9d;">
+    <form id="wu-form-model" method="post" style="text-align: left;font-size: 16px; padding-left: 42px;">
+        <input type="hidden" id="pId" value="">
+        <div style="text-align: center"> <span id="modelmessage" style="color: red;display:none;"></span></div>
+        <div style="margin-top: 30px;" class="one">
+            <span>页面名称<span style="color: red;">*</span>：</span>
+            <select id ="pName" name="pName"  class="easyui-combobox"  style="height: 30px;width: 240px">
+                <option value="aa">未选择</option>
+                <option>页面名称一</option>
+                <option>页面名称二</option>
+                <option>页面名称三</option>
+                <option>页面名称一</option>
+                <option>页面名称一</option>
+                <option>页面名称一</option>
+                <option>页面名称一</option>
+                <option>页面名称一</option>
+            </select>
         </div>
-        <div style="text-align: center"> <span id="dmessage" style="color: red;text-align: center;display: none"></span></div>
+        <%--<div style="height: 20px"></div>
         <div>
-            <span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
-            <input class="easyui-textbox" type="password" id="pwd" name="pwd" data-options="required:true" onfocus="onmblur()">
+            <span>页面对象包名：</span>
+            <input class="easyui-textbox" type="text" id="pObjectName" name="pObjectName" data-options="required:true" onfocus="onmblur()" style="height: 20px;width: 240px">
+        </div>--%>
+        <div style="height: 15px"></div>
+        <div>
+            <span>页面对象url：</span>
+            <input class="easyui-textbox" type="text" id="pValue" name="pValue" data-options="required:true" style="height: 20px;width: 240px">
         </div>
+        <div style="height: 15px"></div>
         <div>
-            <span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
-        </div>
-        <div>
-            <span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
-
-        </div>
-        <div>
-            <span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
+            <span>页面对象描述：</span>
+            <input class="easyui-textbox" type="text" id="pDesc" name="pDesc" data-options="required:true" style="height: 20px;width: 240px">
         </div>
     </form>
 </div>
 <!-- End of easyui-dialog -->
 <script type="text/javascript">
     /**
-     * Name 载入菜单树
-     */
-    /*$('#wu-category-tree').tree({
-     url:'/seckill/getMenu',
-     onClick:function(node){
-     alert(node.text);
-     }
-     });*/
-
-    /**
      * Name 添加记录
      */
     function add(){
         $('#wu-form-model').form('submit', {
-            url:'/model/addModel',
+            url:'/model/addObjectPage',
             onSubmit: function(){
-                var name =$('#name').val();
-                var pwd =$('#pwd').val();
-                if(name!="" && pwd!=""){
+                var pName =$('#pName').val();
+                if(pName!=""){
                     return true;
-                }else if(name==""){
-                    $('#mmessage').show();
-                    $('#mmessage').html('输入用户为空');
-                    return false;
-                }else if(pwd==""){
-                    $('#dmessage').show();
-                    $('#dmessage').html('输入密码为空');
+                }else{
+                    showMessage('one',"输入的页面对象为空");
                     return false;
                 }
-                return false;
             },
             success:function(data){
                 var	rd = eval('('+data+')');
                 if(rd.state==200){
                     $.messager.alert('信息提示',rd.message,'info');
-                    $('#wu-dialog').dialog('close');
-                    $('#wu-datagrid').datagrid('reload');
+                    $('#wu-dialog-model').dialog('close');
+                    $('#wu-datagrid-model').datagrid('reload');
                 }
                 else
                 {
@@ -112,30 +106,23 @@
      */
     function edit(){
         $('#wu-form-model').form('submit',{
-            url:'/model/updateModel',
+            url:'/model/updateObjctPage',
             onSubmit: function(){
-                var name =$('#name').val();
-                var pwd =$('#pwd').val();
-                if(name!="" && pwd!=""){
+                var pName =$('#pName').val();
+                if(pName!=""){
                     return true;
-                }else if(name==""){
-                    $('#mmessage').show();
-                    $('#mmessage').html('输入用户为空');
-                    return false;
-                }else if(pwd==""){
-                    $('#dmessage').show();
-                    $('#dmessage').html('输入密码为空');
+                }else{
+                    showMessage('one',"输入的页面对象为空");
                     return false;
                 }
-                return false;
             },
             success:function(data){
                 //alert(data);
                 var rd = eval('('+data+')');
                 if(rd.state==200){
                     $.messager.alert('信息提示',rd.message,'info');
-                    $('#wu-dialog').dialog('close');
-                    $('#wu-datagrid').datagrid('reload');
+                    $('#wu-dialog-model').dialog('close');
+                    $('#wu-datagrid-model').datagrid('reload');
                 }
                 else
                 {
@@ -151,19 +138,19 @@
     function remove(){
         $.messager.confirm('信息提示','确定要删除该记录？', function(result){
             if(result){
-                var items = $('#wu-datagrid').datagrid('getSelections');
+                var items = $('#wu-datagrid-model').datagrid('getSelections');
                 var ids = [];
                 $(items).each(function(){
                     ids.push(this.id);
                 });
 
                 $.ajax({
-                    url:'/user/deleteOneUser',
+                    url:'/model/deleteObjectPage',
                     data:'id='+ids,
                     success:function(data){
                         if(data.state=200){
                             $.messager.alert('信息提示',data.message,'info');
-                            $('#wu-datagrid').datagrid('reload');
+                            $('#wu-datagrid-model').datagrid('reload');
                         }
                         else
                         {
@@ -183,7 +170,7 @@
         $('#wu-dialog-model').dialog({
             closed: false,
             modal:true,
-            title: "添加模块信息",
+            title: "添加页面对象信息",
             buttons: [{
                 text: '保存',
                 iconCls: 'icon-save',
@@ -207,17 +194,15 @@
         //$('#wu-form').form('clear');
         var item = $('#wu-datagrid-model').datagrid('getSelected');
         if(item==null){
-            $.messager.alert('提示','未选择任何修改记录','error');
-            return;
+            $.messager.alert('提示信息','至少选择一条页面记录','warning');
         }else{
             var id = item.id;
             $.ajax({
-                url:'/user/getOneUser',
+                url:'/model/getOnePageObject',
                 data:'id='+id,
                 contentType : "application/x-www-form-urlencoded; charset=utf-8",
                 success:function(data){
                     if(data){
-                        //alert(data.id);return;
                         $('#id').val(data.id);
                         $('#name').val(data.name);
                         $('#pwd').val(data.pwd);
@@ -232,7 +217,7 @@
             $('#wu-dialog-model').dialog({
                 closed: false,
                 modal:true,
-                title: "修改信息",
+                title: "修改页面对象信息",
                 buttons: [{
                     text: '确定',
                     iconCls: 'icon-ok',
@@ -249,12 +234,11 @@
 
     }
     function onmblur(){
-        $('#mmessage').hide();
-        $('#dmessage').hide();
-        $('#title').show();
-        $('#mes').hide();
-
+        $('#amessage').css("display","none");
     };
+    function showMessage(class_name,str){
+        $('.'+class_name).append('<span id="amessage" style="color: red;display: block;position:relative;top:-45px;">'+str+'</span>');
+    }
     /**
      * Name 分页过滤器
      */
@@ -289,20 +273,22 @@
      * Name 载入数据
      */
     $('#wu-datagrid-model').datagrid({
-        url:'/user/getAllUsers',
+        url:'/model/getAllPageObjects',
         //loadFilter:pagerFilter,
         //rownumbers:true,
         singleSelect:true,
         pageSize:1,
-        pagination:true,
+        pagination:false,
         multiSort:true,
         fitColumns:true,
         fit:true,
         columns:[[
             { checkbox:true},
-            { field:'id',title:'id', width:100},
-            { field:'name',title:'name',width:180},
-            { field:'pwd',title:'pwd',width:100}
+            { field:'pId',title:'页面对象编号', sortable:true,order:'desc',width:10},
+            { field:'pName',title:'页面对象名称',width:50},
+            { field:'pValue',title:'页面路径',width:50},
+            { field:'pDesc',title:'页面对象中文名称',width:50},
+            { field:'pCreateTime',title:'创建时间',width:50}
         ]]
     });
 </script>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<div class="wu-footer" data-options="region:'south',border:true,split:true">
-    &copy; 2013 Wu All Rights Reserved
+<div class="wu-footer" data-options="region:'south',border:false,split:false">
+    Auto Web Ui, Copyright (C) 2017 www.yuminsoft.com.
 </div>
 </body>
 </html>

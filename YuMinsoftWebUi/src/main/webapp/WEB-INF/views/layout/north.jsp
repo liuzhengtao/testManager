@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-<div class="wu-header" data-options="region:'north',border:false,split:true">
+<div class="wu-header" data-options="region:'north',border:false,split:false">
     <div class="wu-header-left">
         <h1>郁敏科技自动化平台管理中心</h1>
     </div>

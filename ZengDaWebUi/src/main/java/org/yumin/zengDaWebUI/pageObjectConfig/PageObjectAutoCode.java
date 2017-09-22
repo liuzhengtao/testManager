@@ -17,7 +17,7 @@ public class PageObjectAutoCode {
 	public static void autoCode() throws Exception
 	{
 		List<PageInfo> pageInfos= PageObjectReadUtil.getPageInfos();
-		//遍历根节点下的第一个节点（page节点）
+		//遍历页面对象信息组装页面对象
 		for(PageInfo pageInfo:pageInfos)
 		{
 

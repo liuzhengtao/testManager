@@ -8,38 +8,14 @@ $(function(){
         var iconCls = $(this).attr('data-icon');
         var iframe = $(this).attr('iframe')==1?true:false;
         addTab(title,url,iconCls,iframe);
+        var tabPanel = $('#wu-tabs');
+        if(tabPanel.tabs('exists','首页')){
+            tabPanel.tabs('close','首页');
+        }
     });
 })
 
-/**
- * Name 载入树形菜单
- */
-$('#wu-side-tree').tree({
-    url:'/seckill/getMenu',
-    cache:false,
-    onClick:function(node){
-        var url = node.attributes['url'];
-        if(url==null || url == ""){
-            return false;
-        }
-        else{
-            addTab(node.text, url, '', node.attributes['iframe']);
-        }
-    }
-});
 
-/**
- * Name 选项卡初始化
- */
-$('#wu-tabs').tabs({
-    tools: [{
-        iconCls: 'icon-reload',
-        border: false,
-        handler: function () {
-            $('#wu-datagrid').datagrid('reload');
-        }
-    }]
-});
 
 /**
  * Name 添加菜单选项
@@ -86,7 +62,7 @@ function removeTab(){
     var tab = tabPanel.tabs('getSelected');
     if (tab){
         var index = tabPanel.tabs('getTabIndex', tab);
-        tabPanel.tabs('close', demo);
+        tabPanel.tabs('close', tab.title);
     }
 }
 

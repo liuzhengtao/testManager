@@ -56,6 +56,18 @@ public class PageController {
     }
 
 
+    @RequestMapping("/getLocatorPage")
+    public String getLocatorPage(HttpSession httpSession){
+        try {
+            if(!httpSession.getAttribute("name").equals("")|| !(httpSession.getAttribute("name") ==null)){
+                return "page/locatorpage";
+            }
+            return "login";
+        }catch (NullPointerException e){
+            return "login";
+        }
+    }
+
     @RequestMapping("/getStepPage")
     public String getStepPage(HttpSession httpSession){
         try {
