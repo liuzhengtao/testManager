@@ -7,7 +7,7 @@
     <div class="wu-header-left">
         <h1>郁敏科技自动化平台管理中心</h1>
     </div>
-    <div class="wu-header-right">
+    <div class="wu-header-right" style="text-align: right">
         <p><strong class="easyui-tooltip" title="${1}" style="color: red">${name}</strong>，欢迎您！</p>
         <p id="de"></p>
     </div>

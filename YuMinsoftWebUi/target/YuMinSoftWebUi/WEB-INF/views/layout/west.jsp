@@ -14,12 +14,19 @@
                 <%--<li iconCls="icon-user-group"><a href="javascript:void(0)" data-icon="icon-user-group" data-link="/page/getModelPage" iframe="0">模块管理</a></li>--%>
                 <li iconCls="icon-cog"><a href="javascript:void(0)" data-icon="icon-cog" data-link="/page/getCasePage" iframe="0">用例管理</a></li>
                 <li iconCls="icon-application-osx-error"><a href="javascript:void(0)" data-icon="icon-application-osx-error" data-link="/page/getStepPage" iframe="0">步骤管理</a></li>
+                <li iconCls="icon-book"><a href="javascript:void(0)" data-icon="icon-book" data-link="/page/getObjectPage" iframe="0">任务调度</a></li>
+            </ul>
+        </div>
+        <div title="数据显示管理" data-options="iconCls:'icon-report'" style="padding:5px;">
+            <ul class="easyui-tree wu-side-tree">
+                <li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="/page/getRolePage" iframe="0">报告查看</a></li>
+                <li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="/page/getRolePage" iframe="0">日志查看</a></li>
             </ul>
         </div>
         <div title="系统设置" data-options="iconCls:'icon-wrench'" style="padding:5px;">
             <ul class="easyui-tree wu-side-tree">
                 <li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="/page/getUserPage" iframe="0">用户管理</a></li>
-                <li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="/page/getRolePage" iframe="0">角色管理</a></li>
+                <li iconCls="icon-role"><a href="javascript:void(0)" data-icon="icon-role" data-link="/page/getRolePage" iframe="0">角色管理</a></li>
             </ul>
         </div>
     </div>
